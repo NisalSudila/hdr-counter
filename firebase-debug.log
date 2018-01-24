@@ -1,0 +1,32 @@
+[debug] [2018-01-24T11:05:49.997Z] ----------------------------------------------------------------------
+[debug] [2018-01-24T11:05:49.999Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\BHNS\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-01-24T11:05:49.999Z] CLI Version:   3.17.3
+[debug] [2018-01-24T11:05:49.999Z] Platform:      win32
+[debug] [2018-01-24T11:05:49.999Z] Node Version:  v8.9.4
+[debug] [2018-01-24T11:05:50.000Z] Time:          Wed Jan 24 2018 16:35:49 GMT+0530 (Sri Lanka Standard Time)
+[debug] [2018-01-24T11:05:50.000Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-24T11:05:50.015Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-24T11:05:50.016Z] > authorizing via signed-in user
+[debug] [2018-01-24T11:05:50.018Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/hds-counter  
+  
+ Wed Jan 24 2018 16:35:50 GMT+0530 (Sri Lanka Standard Time)
+[debug] [2018-01-24T11:05:51.257Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-24T11:05:51.257Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/hds-counter/tokens  
+  
+ Wed Jan 24 2018 16:35:51 GMT+0530 (Sri Lanka Standard Time)
+[debug] [2018-01-24T11:05:52.442Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\BHNS\Desktop\HDS - counter'...
+[info] 
+[debug] [2018-01-24T11:05:52.442Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hds-counter  
+  
+ Wed Jan 24 2018 16:35:52 GMT+0530 (Sri Lanka Standard Time)
+[debug] [2018-01-24T11:05:53.728Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-24T11:05:53.728Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/863416951570/clients/_:getWebAppConfig  
+  
+ Wed Jan 24 2018 16:35:53 GMT+0530 (Sri Lanka Standard Time)
+[debug] [2018-01-24T11:05:54.471Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+

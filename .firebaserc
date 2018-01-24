@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "hds-counter"
+    "default": "hds-counter",
+    "exit": "slotmachine-816bb",
+    "hds-counter": "hds-counter"
   }
 }
