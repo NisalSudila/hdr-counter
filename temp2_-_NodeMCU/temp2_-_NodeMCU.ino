@@ -10,11 +10,6 @@ int g = 15;
 
 void setup() {
 
-
-
-
-  
-
     pinMode(a, OUTPUT); //GPIO2 --> D4 ---> InBuilt-LED
     pinMode(b, OUTPUT); //GPIO3 --> D9
     pinMode(c, OUTPUT); //GPIO4 --> D2
@@ -22,14 +17,6 @@ void setup() {
     pinMode(e, OUTPUT); //GPIO12 --> D6
     pinMode(f, OUTPUT); //GPIO13 --> D7
     pinMode(g, OUTPUT); //GPIO15 --> D8
-
-    int count1 =0;
-    pinMode(9, INPUT);
-
-
-digitalWrite(a,1);
-
-
 
 }
 void zero(){
@@ -113,7 +100,7 @@ void blackout(){
   
   }
    void testToTen(){
-    for(int i=0; i<3; i++){
+    
     zero();
     delay(1000);
     blackout();
@@ -164,7 +151,7 @@ void blackout(){
     blackout();
 //    delay(1000);
       }
-    }
+    
 void testBySegment(){
   
  digitalWrite(a,LOW);
